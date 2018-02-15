@@ -39,9 +39,9 @@ Using `cplex` as solver:
  ```
  
  #### Clemson Webpage
- Edit personal webpage. `myname = CUID`.
+ Edit personal webpage. `USERNAME = CUID`.
  ```
- sudo mount -t davfs -o username=myname,rw,dir_mode=0777,file_mode=0777 https://myname-edit.people.clemson.edu/
+ sudo mount -t davfs -o username=USERNAME,rw,dir_mode=0777,file_mode=0777 https://USERNAME-edit.people.clemson.edu/
 ```
 #### miscellaneous
 `awk` is a scripting language for text processing, nameed after authror last names
