@@ -12,8 +12,10 @@ git rm file1.txt
 git commit -m "remove file1.txt
 git push
 ```
-##### Linux
+#### Linux
 
 
 #### Palmetto
 
+
+#### Other
