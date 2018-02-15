@@ -1,11 +1,9 @@
 ## Important Commands
-###### Git formating webpage
-`https://help.github.com/articles/basic-writing-and-formatting-syntax/` for README format
-###### Git General
-```
-git config --get remote.origin.url
+### Git 
 
-```
+`https://help.github.com/articles/basic-writing-and-formatting-syntax/` for README format
+
+`git config --get remote.origin.url` to get git url
 If you want to remove a file.txt
 ```
 git rm file1.txt
