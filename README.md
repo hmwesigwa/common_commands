@@ -21,4 +21,13 @@ Delete at most 1000 jobs except `2684729.pbs02`
 ```
 
 
-#### Other
+#### Python
+Read all `.txt` files in `mydir`
+```
+import os
+mydir = '../'
+mymodels = {}
+for myfile in os.listdir(mydir):
+  if myfile.endswith(".txt"):
+    print(myfile)
+```
