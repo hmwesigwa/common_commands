@@ -15,7 +15,7 @@ git push
 
 
 #### Palmetto
-Delete jobs
+Delete at most 1000 jobs except `2684729.pbs02`
 ```
  for i in `qstat -u hushiji | grep hushiji | grep -v 2684729.pbs02 | awk -F" " '{print $1}' | awk -F"." '{print $1}' | head -n 1000 `; do echo $i && qdel $i ;done
 ```
