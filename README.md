@@ -37,5 +37,11 @@ Using `cplex` as solver:
 ```
  pyomo solve --solver=cplex --json --stream-solver --solver-options='mipgap=0.01 parallel=-1 timelimit=30' --save-results=myresults.json mymodel.py mydata.dat
  ```
+ 
+ #### Clemson Webpage
+ Edit personal webpage. `myname = CUID`.
+ ```
+ sudo mount -t davfs -o username=myname,rw,dir_mode=0777,file_mode=0777 https://myname-edit.people.clemson.edu/
+```
 #### miscellaneous
 `awk` is a scripting language for text processing, nameed after authror last names
