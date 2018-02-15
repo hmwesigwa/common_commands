@@ -15,6 +15,10 @@ git push
 
 
 #### Palmetto
+Delete jobs
+```
+ for i in `qstat -u hushiji | grep hushiji | grep -v 2684729.pbs02 | awk -F" " '{print $1}' | awk -F"." '{print $1}' | head -n 1000 `; do echo $i && qdel $i ;done
+```
 
 
 #### Other
