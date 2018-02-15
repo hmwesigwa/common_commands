@@ -31,3 +31,6 @@ for myfile in os.listdir(mydir):
   if myfile.endswith(".txt"):
     print(myfile)
 ```
+
+#### miscellaneous
+`awk` is a scripting language for text processing, nameed after authror last names
