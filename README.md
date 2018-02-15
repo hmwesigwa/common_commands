@@ -31,6 +31,11 @@ for myfile in os.listdir(mydir):
   if myfile.endswith(".txt"):
     print(myfile)
 ```
+#### Pyomo
+Using `cplex` as solver:
 
+```
+ pyomo solve --solver=cplex --json --stream-solver --solver-options='mipgap=0.01 parallel=-1 timelimit=30' --save-results=myresults.json mymodel.py mydata.dat
+ ```
 #### miscellaneous
 `awk` is a scripting language for text processing, nameed after authror last names
