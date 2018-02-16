@@ -31,6 +31,13 @@ for myfile in os.listdir(mydir):
   if myfile.endswith(".txt"):
     print(myfile)
 ```
+
+Regular Expressions:
+```
+>>> import re
+>>> re.findall(r'\d+', 'hello 42 I\'m a 32 string 30')
+['42', '32', '30']
+```
 #### Pyomo
 Using `cplex` as solver:
 
