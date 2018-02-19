@@ -43,7 +43,7 @@ Regular Expressions:
 >>> re.findall(r'\d+', 'hello 42 I\'m a 32 string 30')
 ['42', '32', '30']
 ```
-#### Pyomo
+### Pyomo
 Using `cplex` as solver:
 
 ```
