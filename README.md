@@ -15,6 +15,11 @@ git push
 
 
 #### Palmetto
+
+Get Job on bigmem:
+```
+qsub -q bigmem -I -X -l  select=1:ncpus=40:mem=1400gb,walltime=72:00:00
+```
 Delete at most 1000 jobs except `2684729.pbs02`
 ```
  for i in `qstat -u hushiji | grep hushiji | grep -v 2684729.pbs02 | awk -F" " '{print $1}' | awk -F"." '{print $1}' | head -n 1000 `; do echo $i && qdel $i ;done
