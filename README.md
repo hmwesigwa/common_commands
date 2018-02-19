@@ -55,6 +55,9 @@ More info on scripting, e.g, warmstart, `https://github.com/Pyomo/pyomo/blob/mas
 
 Cplex solver options via pyomo:
 ```
+from pyomo.environ import *
+import maxflow
+
 instance = maxflow.model.create_instance('mydata.dat')
 instance.f['A','C'] = 0
 solver = SolverFactory('cplex')
