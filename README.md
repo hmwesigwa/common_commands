@@ -50,6 +50,8 @@ Using `cplex` as solver:
  pyomo solve --solver=cplex --json --stream-solver --solver-options='mipgap=0.01 parallel=-1 timelimit=30' --save-results=myresults.json mymodel.py mydata.dat
  ```
  
+ Scripting:
+More info on scripting, e.g, warmstart, `https://github.com/Pyomo/pyomo/blob/master/doc/GettingStarted/current/scripts.txt`
  #### Clemson Webpage
  Edit personal webpage. `USERNAME = CUID`.
  ```
