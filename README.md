@@ -56,9 +56,9 @@ More info on scripting, e.g, warmstart, `https://github.com/Pyomo/pyomo/blob/mas
 Cplex solver options via pyomo:
 ```
 from pyomo.environ import *
-import maxflow
+import maxflow  # model file is maxflow.py
 
-instance = maxflow.model.create_instance('mydata.dat')
+instance = maxflow.model.create_instance('mydata.dat')  # data file
 instance.f['A','C'] = 0
 solver = SolverFactory('cplex')
 solver.options['timelimit'] = 5
