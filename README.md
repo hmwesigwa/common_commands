@@ -52,6 +52,16 @@ Using `cplex` as solver:
  
  Scripting:
 More info on scripting, e.g, warmstart, `https://github.com/Pyomo/pyomo/blob/master/doc/GettingStarted/current/scripts.txt`
+
+Cplex solver options via pyomo:
+```
+instance = maxflow.model.create_instance('mydata.dat')
+instance.f['A','C'] = 0
+solver = SolverFactory('cplex')
+solver.options['timelimit'] = 5
+results = solver.solve(model, warmstart=True, tee=True)
+```
+
  #### Clemson Webpage
  Edit personal webpage. `USERNAME = CUID`.
  ```
