@@ -62,7 +62,9 @@ instance = maxflow.model.create_instance('mydata.dat')  # data file
 instance.f['A','C'] = 0
 solver = SolverFactory('cplex')
 solver.options['timelimit'] = 5
-results = solver.solve(model, warmstart=True, tee=True)
+results = solver.solve(model, warmstart=True, tee=True)  #
+instance.solutions.load_from(results)
+
 ```
 
  #### Clemson Webpage
