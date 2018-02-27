@@ -86,3 +86,27 @@ instance.solutions.load_from(results)
 #### miscellaneous
 `awk` is a scripting language for text processing, nameed after authror last names
 
+#### Convert files
+`.png` to `.eps`. This converts all `.png` in the current directory to `.eps`
+One file:
+
+```
+convert-im6 file.png file.eps
+
+convert file.png file.eps  # did not work for me, internet says it should work
+```
+```
+mogrify -format eps *.png
+```
+This reduces the file size of `.eps`. It first converts to `.pdf`
+One file:
+```
+epstopdf filename.eps
+pdftops -eps test.pdf
+```
+All files in directory:
+```
+find . -name "*.eps" -exec epstopdf {} ";"
+find . -name "*.pdf" -exec pdftops -eps {} ";"
+
+```
