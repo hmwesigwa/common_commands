@@ -13,6 +13,10 @@ git push
 ```
 #### Linux
 
+#### LaTex
+
+Images display in same section use `\usepackage[section]{placeins}`
+
 
 #### Palmetto
 
