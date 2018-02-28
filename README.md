@@ -1,6 +1,6 @@
 ## Important Commands
 ### Git 
-
+---
 [Git writing and formating](https://help.github.com/articles/basic-writing-and-formatting-syntax/) for README format
 
 `git config --get remote.origin.url` to get git url
@@ -12,14 +12,39 @@ git commit -m "remove file1.txt
 git push
 ```
 #### Linux
+---
+ Convert files
+`.png` to `.eps`. This converts all `.png` in the current directory to `.eps`
+One file:
+
+```
+convert-im6 file.png file.eps
+
+convert file.png file.eps  # did not work for me, internet says it should work
+```
+```
+mogrify -format eps *.png
+```
+This reduces the file size of `.eps`. It first converts to `.pdf`
+One file:
+```
+epstopdf filename.eps
+pdftops -eps test.pdf
+```
+All files in directory:
+```
+find . -name "*.eps" -exec epstopdf {} ";"
+find . -name "*.pdf" -exec pdftops -eps {} ";"
+
+```
 
 #### LaTex
-
+---
 Images display in same section use `\usepackage[section]{placeins}`
 
 
 #### Palmetto
-
+---
 Get Job on bigmem:
 ```
 qsub -q bigmem -I -X -l  select=1:ncpus=40:mem=1400gb,walltime=72:00:00
@@ -31,6 +56,7 @@ Delete at most 1000 jobs except `2684729.pbs02`
 
 
 #### Python
+---
 Read all `.txt` files in `mydir`
 ```
 import os
@@ -48,6 +74,7 @@ Regular Expressions:
 ['42', '32', '30']
 ```
 ### Pyomo
+---
 Using `cplex` as solver:
 
 ```
@@ -82,34 +109,13 @@ instance.solutions.load_from(results)
 ```
 
  #### Clemson Webpage
+ ---
  Edit personal webpage. `USERNAME = CUID`.
  ```
  sudo mount -t davfs -o username=USERNAME,rw,dir_mode=0777,file_mode=0777 https://USERNAME-edit.people.clemson.edu/
 ```
 #### miscellaneous
+---
 `awk` is a scripting language for text processing, nameed after authror last names
 
-#### Convert files
-`.png` to `.eps`. This converts all `.png` in the current directory to `.eps`
-One file:
 
-```
-convert-im6 file.png file.eps
-
-convert file.png file.eps  # did not work for me, internet says it should work
-```
-```
-mogrify -format eps *.png
-```
-This reduces the file size of `.eps`. It first converts to `.pdf`
-One file:
-```
-epstopdf filename.eps
-pdftops -eps test.pdf
-```
-All files in directory:
-```
-find . -name "*.eps" -exec epstopdf {} ";"
-find . -name "*.pdf" -exec pdftops -eps {} ";"
-
-```
