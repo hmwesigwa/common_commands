@@ -6,7 +6,7 @@
 [Palmetto](#Palmetto)
 [Python](#Python)
 [Pyomo](#Pyomo)
-[Clemson Webpage](#Clemson Webpage)
+[Clemson Webpage](#Clemson-Webpage)
 [miscellaneous](#miscellaneous)
 ---
 
