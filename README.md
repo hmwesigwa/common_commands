@@ -1,6 +1,15 @@
 # Important Commands
 ## Table of Content
 [Git](#git)
+[Linux](#Linux)
+[LaTex](#LaTex)
+[Palmetto](#Palmetto)
+[Python](#Python)
+[Pyomo](#Pyomo)
+[Clemson Webpage](#Clemson Webpage)
+[miscellaneous](#miscellaneous)
+---
+
 ### Git 
 ---
 [Git writing and formating](https://help.github.com/articles/basic-writing-and-formatting-syntax/) for README format
