@@ -1,13 +1,21 @@
 # Important Commands
 ## Table of Content
 [Git](#git)
+
 [Linux](#Linux)
+
 [LaTex](#LaTex)
+
 [Palmetto](#Palmetto)
+
 [Python](#Python)
+
 [Pyomo](#Pyomo)
+
 [Clemson Webpage](#Clemson-Webpage)
+
 [miscellaneous](#miscellaneous)
+
 ---
 
 ### Git 
