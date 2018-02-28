@@ -1,4 +1,6 @@
-## Important Commands
+# Important Commands
+## Table of Content
+[Git](#git)
 ### Git 
 ---
 [Git writing and formating](https://help.github.com/articles/basic-writing-and-formatting-syntax/) for README format
