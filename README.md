@@ -56,8 +56,7 @@ Using `cplex` as solver:
  
  Parameter Passing:
  
- List of different parameters for `CPLEX` available on 
- `https://www.ibm.com/support/knowledgecenter/SSSA5P_12.6.3/ilog.odms.studio.help/pdf/paramcplex.pdf`
+ [CPLEX Parameters](https://www.ibm.com/support/knowledgecenter/SSSA5P_12.6.3/ilog.odms.studio.help/pdf/paramcplex.pdf)
  
  ```
 from pyomo.environ import *
@@ -66,7 +65,7 @@ opt.options['mip limits solutions'] = 1
 ```
 
  Scripting:
-More info on scripting, e.g, warmstart, `https://github.com/Pyomo/pyomo/blob/master/doc/GettingStarted/current/scripts.txt`
+For info like warmstart, see [Pyomo Scripting](https://github.com/Pyomo/pyomo/blob/master/doc/GettingStarted/current/scripts.txt)
 
 Cplex solver options via pyomo:
 ```
