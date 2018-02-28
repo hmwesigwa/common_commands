@@ -1,7 +1,7 @@
 ## Important Commands
 ### Git 
 
-`https://help.github.com/articles/basic-writing-and-formatting-syntax/` for README format
+[Git writing and formating](https://help.github.com/articles/basic-writing-and-formatting-syntax/) for README format
 
 `git config --get remote.origin.url` to get git url
 
