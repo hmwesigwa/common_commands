@@ -4,7 +4,7 @@
 
 [Linux](#linux)
 
-[LaTex](#laTex)
+[LaTex](#latex)
 
 [Palmetto](#palmetto)
 
