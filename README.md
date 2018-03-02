@@ -61,6 +61,35 @@ find . -name "*.pdf" -exec pdftops -eps {} ";"
 ---
 Images display in same section use `\usepackage[section]{placeins}`
 
+Adding x-axis and y-axis label to latex:
+```
+\documentclass{article}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usetikzlibrary{positioning}
+
+
+\begin{document}
+
+\begin{figure}[htb]
+\begin{minipage}{0.4\textwidth}
+\begin{tikzpicture}
+  \node (img)  {\includegraphics[scale=0.225]{example-image}};
+  \node[below=of img, node distance=0cm, yshift=1cm,font=\color{red}] {x-axis};
+  \node[left=of img, node distance=0cm, rotate=90, anchor=center,yshift=-0.7cm,font=\color{red}] {y-axis};
+ \end{tikzpicture}
+\end{minipage}%
+\begin{minipage}{0.4\textwidth}
+\begin{tikzpicture}
+  \node (img)  {\includegraphics[scale=0.225]{example-image}};
+  \node[below=of img, node distance=0cm, yshift=1cm,font=\color{red}] {x-axis};
+  \node[left=of img, node distance=0cm, rotate=90, anchor=center,yshift=-0.7cm,font=\color{red}] {y-axis};
+\end{tikzpicture}
+\end{minipage}%
+\end{figure}
+\end{document}
+
+```
 
 #### Palmetto
 ---
