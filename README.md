@@ -8,11 +8,11 @@
 
 [Palmetto](#palmetto)
 
-[Python](#Python)
+[Python](#pyhon)
 
-[Pyomo](#Pyomo)
+[Pyomo](#pomo)
 
-[Clemson Webpage](#Clemson-Webpage)
+[Clemson Webpage](#clemson-webpage)
 
 [miscellaneous](#miscellaneous)
 
