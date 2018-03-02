@@ -2,11 +2,11 @@
 ## Table of Content
 [Git](#git)
 
-[Linux](#Linux)
+[Linux](#linux)
 
-[LaTex](#LaTex)
+[LaTex](#laTex)
 
-[Palmetto](#Palmetto)
+[Palmetto](#palmetto)
 
 [Python](#Python)
 
