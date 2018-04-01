@@ -158,9 +158,9 @@ instance.solutions.load_from(results)
 
  #### Clemson Webpage
  ---
- Edit personal webpage. `USERNAME = CUID`.
+ Edit personal webpage. `USERNAME = CUID`, `/webpage = <webpage directory>`
  ```
- sudo mount -t davfs -o username=USERNAME,rw,dir_mode=0777,file_mode=0777 https://USERNAME-edit.people.clemson.edu/
+ sudo mount -t davfs -o username=USERNAME,rw,dir_mode=0777,file_mode=0777 https://USERNAME-edit.people.clemson.edu/ /webpage
 ```
 #### miscellaneous
 ---
