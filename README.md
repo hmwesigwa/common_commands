@@ -2,6 +2,8 @@
 ## Table of Content
 [Git](#git)
 
+[Vim](#vim)
+
 [Linux](#linux)
 
 [LaTex](#latex)
@@ -30,6 +32,14 @@ git rm file1.txt
 git commit -m "remove file1.txt
 git push
 ```
+
+### Vim
+```
+v - select
+V - select lines
+
+```
+
 #### Linux
 ---
  Convert files
