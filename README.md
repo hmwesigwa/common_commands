@@ -101,6 +101,10 @@ Adding x-axis and y-axis label to latex:
 
 ```
 
+All `.png` files from dir
+```
+for f in ./images/*.png; do echo "\\includegraphics[width=0.9\\linewidth]{images/$f}\\\\"; done;
+```
 #### Palmetto
 ---
 Get Job on bigmem:
