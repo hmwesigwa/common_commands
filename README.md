@@ -67,6 +67,11 @@ find . -name "*.pdf" -exec pdftops -eps {} ";"
 
 ```
 
+Reduce size of pdf
+```
+gs -sDEVICE=pdfwrite -dPDFSETTINGS=/ebook -q -o output.pdf results.pdf
+```
+
 #### LaTex
 ---
 Images display in same section use `\usepackage[section]{placeins}`
