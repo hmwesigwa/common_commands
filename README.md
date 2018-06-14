@@ -72,6 +72,12 @@ Reduce size of pdf
 gs -sDEVICE=pdfwrite -dPDFSETTINGS=/ebook -q -o output.pdf results.pdf
 ```
 
+Uncompress all `bz2` files
+```
+bzip2 -dk *.bz2
+
+```
+
 #### LaTex
 ---
 Images display in same section use `\usepackage[section]{placeins}`
