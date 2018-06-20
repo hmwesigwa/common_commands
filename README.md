@@ -116,6 +116,15 @@ All `.png` files from dir
 ```
 for f in ./images/*.png; do echo "\\includegraphics[width=0.9\\linewidth]{images/$f}\\\\"; done;
 ```
+
+Docker useful links
+
+Docker version is ` CentOS 7.5.1804 for x86_64`
+```
+ldd `which kaffpa`
+sudo yum install ~/intern/libgomp-4.8.5-28.el7_5.1.x86_64.rpm
+```
+
 #### Palmetto
 ---
 Get Job on bigmem:
