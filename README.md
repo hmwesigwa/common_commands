@@ -78,6 +78,11 @@ bzip2 -dk *.bz2
 
 ```
 
+Search for string in files
+```
+grep -rnw '/path/to/somewhere/' -e 'pattern'
+```
+
 #### LaTex
 ---
 Images display in same section use `\usepackage[section]{placeins}`
