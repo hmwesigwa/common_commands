@@ -12,7 +12,7 @@
 
 [Python](#pyhon)
 
-[Pyomo](#pomo)
+[Pyomo](#pyomo)
 
 [Clemson Webpage](#clemson-webpage)
 
